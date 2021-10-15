@@ -3,7 +3,7 @@
 var bodyWidth = $(window).width();
 
 if (bodyWidth < 490) {
-    $('.woman__banner').attr('src', 'image/women_banner_mb.png')
+    $('.header').addClass('header_mob');
 }
 
 var cssActive = {
@@ -12,7 +12,9 @@ var cssActive = {
 var cssInactive = {
     'transform': 'skewX(-15deg) translateX(-100px)'
 }
-
+$('.hidden_button_text').click(function(){
+    $('.hidden_text_content').css('display', 'block')
+})
 setInterval(() => {
     $('.button_mask').css(cssActive)
 

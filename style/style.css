@@ -39,6 +39,9 @@ a {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/desktop_compettor.png);
     background-size: cover;
 }
+.header_mob {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/competitor-mob.png) !important; 
+}
 .header__body_logo {
     margin-top: 30px;
     width: 100px;
@@ -101,7 +104,9 @@ a {
     width: 250px;
     margin: 0 auto;
 }
-
+.hidden_text_show {
+    margin: 0 auto;
+}
 .header__body_join {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
@@ -111,8 +116,11 @@ a {
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
-
+.header__body_down_block img {
+    width: 30px;
+}
 .header__body_down {
     width: 40px;
     margin-top: 90px;
@@ -194,11 +202,30 @@ a {
     height: 19px;
     margin-top: 20px;
 }
-
+.hiddend__text {
+    text-align: center;
+    margin-top: 30px;
+}
+.hiddend__text button {
+    margin-bottom: 30px;
+}
+.hidden_text_content {
+    display: none;
+}
+.hiddend_text_cont {
+    margin-top: 20px;
+}
+.hidden_text_title {
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 .adv__list_header img {
     width: 70px;
 }
-
+.hidden_text_content {
+    text-align: left;
+}
 .adv_item_left {
     width: 65%;
     display: flex;
