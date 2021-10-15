@@ -202,6 +202,17 @@ a {
     height: 19px;
     margin-top: 20px;
 }
+.hidden_button_text {
+    width: 150px !important;
+    background: transparent !important;
+    color: black !important;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hidden_button_text i {
+    font-size: 10px;
+}
 .hiddend__text {
     text-align: center;
     margin-top: 30px;
